@@ -1,0 +1,33 @@
+body {
+    background-color: #857a7a;
+    background-image: url("../images/background.jpg");
+    font-family: 'Eagle Lake', cursive;    
+}
+h2 {
+    text-align: center;
+}
+.col-lg-9 {
+    padding: 1px 16px;
+}
+.character {
+    text-align: center;
+    margin: 2px;
+    border-style: round;
+    border-color: #000000;
+    border-radius: 5px;
+    background-color: #4a920f;
+    font-size: 18px;
+}
+.character:hover {
+    background-color: #063511;
+}
+#sidebar {
+    background-color: #0a6829;
+    height: 100%;
+    position: fixed;
+    width: 15%;
+    margin: 0px;
+    padding: 0px;
+    opacity: 1;
+}
+
